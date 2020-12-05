@@ -33,15 +33,15 @@ const Contact = () => {
 
           <form className='col-md-9 pl-0 contact__forms'>
             <div className='form-group'>
-              <label for='name'>Your Name</label>
+              <label htmlFor='name'>Your Name</label>
               <input type='email' className='form-control form-control-lg' />
             </div>
             <div className='form-group'>
-              <label for='name'>Your Email</label>
+              <label htmlFor='name'>Your Email</label>
               <input type='email' className='form-control form-control-lg' />
             </div>
             <div className='form-group'>
-              <label for='textarea'>Your Message</label>
+              <label htmlFor='textarea'>Your Message</label>
               <textarea
                 className='form-control form-control-lg pl-4 pt-4'
                 rows='4'
