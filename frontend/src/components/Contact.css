@@ -1,0 +1,66 @@
+.contact {
+  background-color: #fff !important;
+  border-radius: 20px;
+}
+
+.contact .form-control {
+  border-radius: 30px;
+  background-color: #f4f4fc;
+  border: none;
+}
+
+.contact p,
+.contact label {
+  color: var(--gray-color);
+}
+
+.contact h2 {
+  color: var(--purple-color);
+  font-weight: 800;
+}
+
+.contact__forms label {
+  font-weight: 700;
+}
+
+.btn-primary {
+  border-radius: 30px !important;
+  background-color: #817ffe !important;
+  padding: 13px 80px !important;
+}
+
+.contact__address {
+  display: flex;
+  flex-direction: column;
+  color: var(--gray-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social__icons {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 40px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  border-radius: 50%;
+}
+
+.facebook {
+  fill: #537cce;
+}
+
+.twitter {
+  fill: #99e0fe;
+  font-size: 48px;
+}
+
+.instagram {
+  fill: #bd95e6;
+}

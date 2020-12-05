@@ -1,0 +1,14 @@
+body {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+:root {
+  --purple-color: #4f4bb3;
+  --gray-color: #808ead;
+}
+
+.app {
+  background-color: #7f7df8;
+  display: grid;
+  place-items: center;
+}
